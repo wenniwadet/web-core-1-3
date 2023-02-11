@@ -1,4 +1,4 @@
-@import url("css/fonts.css");
+@import url("fonts.css");
 
 body {
   font-family: "TT Lakes", "Arial", sans-serif;
@@ -45,7 +45,7 @@ body {
 }
 
 .button--burger {
-  background: url("img/icons/burger.svg") no-repeat 50% 50%;
+  background: url("../img/icons/burger.svg") no-repeat 50% 50%;
 }
 
 /* .upper-menu__button--burger {
