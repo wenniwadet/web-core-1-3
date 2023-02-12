@@ -72,7 +72,7 @@ li {
 }
 
 .button--burger {
-  background: url("/img/icons/burger.svg") no-repeat 50% 50%;
+  background: url("../img/icons/burger.svg") no-repeat 50% 50%;
 }
 
 .divider {
@@ -87,11 +87,11 @@ li {
 }
 
 .button--repair {
-  background: url("/img/icons/repair.svg") no-repeat 50% 50%;
+  background: url("../img/icons/repair.svg") no-repeat 50% 50%;
 }
 
 .button--check {
-  background: url("/img/icons/checkstatus.svg") no-repeat 50% 50%;
+  background: url("../img/icons/checkstatus.svg") no-repeat 50% 50%;
 }
 
 /* HEADER - MENU */
@@ -164,7 +164,7 @@ li {
   padding-left: 32px;
   background-color: transparent;
   border: 0;
-  background: url("/img/icons/icon.svg") no-repeat 8px 50%;
+  background: url("../img/icons/icon.svg") no-repeat 8px 50%;
   font-size: 16px;
   font-family: inherit;
   font-weight: 500;
