@@ -1,20 +1,20 @@
 @font-face {
   font-family: "TT Lakes";
-  src: url(https://wenniwadet.github.io/section-web-core/fonts/TTLakes-Bold.woff2), url(https://wenniwadet.github.io/section-web-core/fonts/TTLakes-Bold.woff);
+  src: url(../fonts/ttlakes-bold.woff2), url(../fonts/ttlakes-bold.woff);
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "TT Lakes";
-  src: url(https://wenniwadet.github.io/section-web-core/fonts/TTLakes-Medium.woff2), url(https://wenniwadet.github.io/section-web-core/fonts/TTLakes-Medium.woff);
+  src: url(../fonts/ttlakes-medium.woff2), url(../fonts/ttlakes-medium.woff);
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "TT Lakes";
-  src: url(https://wenniwadet.github.io/section-web-core/fonts/TTLakes-Regular.woff2), url(https://wenniwadet.github.io/section-web-core/fonts/TTLakes-Regular.woff);
+  src: url(../fonts/ttlakes-regular.woff2), url(../fonts/ttlakes-regular.woff);
   font-weight: normal;
   font-style: normal;
 }
