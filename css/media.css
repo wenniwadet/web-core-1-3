@@ -1,57 +1,48 @@
 @media (min-width: 768px) {
-  /* _______________________________________________ */
-  /* UPPER-MENU */
+  /* HEADER - TOP-MENU */
 
-  .header__inner {
-    padding: 18px 24px;
+  .header__container-top {
+    padding: 0 24px;
   }
 
-  .upper-menu__divider--right {
-    margin-left: 0;
-  }
-  .upper-menu__button--profile {
-    margin-right: 20px;
+  .header__tablet {
     display: block;
   }
 
-  .upper-menu__button--chat {
-    display: block;
-    margin-right: 16px;
+  .button--phone {
+    background: url("/img/icons/call.svg") no-repeat 50% 50%;
   }
 
-  .upper-menu__button--phone {
-    margin-left: auto;
-    margin-right: 16px;
-    display: block;
+  .button--chat {
+    background: url("/img/icons/chat.svg") no-repeat 50% 50%;
   }
 
-  .upper-menu__divider--left {
-    margin-right: 21px;
-    display: block;
+  .button--profile {
+    background: url("/img/icons/profile.svg") no-repeat 50% 50%;
   }
 
-  /* _____________________________________________________________________________ */
-  /* SLIUDE-MENU */
+  /* HEADER - MENU */
+  .header__title {
+    margin: 24px auto 32px 24px;
+  }
+
   .title::before {
     left: -28px;
   }
 
-  .header__title {
-    margin: 24px 24px 32px;
-  }
-
   .header__menu {
-    margin: 0 0 32px 24px;
-  }
-  /* _____________________________________________________________________________ */
-  /* SECTION-ABOUT*/
-  .about__content {
-    margin: 0 0 0 24px;
+    margin-left: 24px;
   }
 
-  .about {
+  /* SECTION - ABOUT */
+  .about__container {
+    padding: 32px 24px;
     display: flex;
     column-gap: 48px;
+  }
+
+  .about__content {
+    padding: 0;
   }
 
   .about__description {
@@ -63,125 +54,90 @@
     margin: 10px 0 0 0;
   }
 
-  .about__container-img {
-    margin-right: 24px;
-  }
   .about__img {
     border-radius: 6px;
   }
 }
 
 @media (min-width: 1120px) {
-  /* HEADER _________________________________________________ */
-
+  .header__mobile,
+  .header__tablet {
+    display: none;
+  }
+  /* HEADER */
   .header__container {
+    padding: 42px 32px 0;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 42px 29px 0 32px;
+    row-gap: 8px;
   }
 
-  .header__inner {
+  .header__container-top {
     padding: 0;
     border-bottom: 0;
-    background-color: transparent;
+    background-color: inherit;
+    min-width: 375px;
     margin-left: auto;
   }
 
-  .upper-menu__button--burger {
-    display: none;
+  .header__top-menu {
+    padding: 0;
   }
 
-  .logo {
-    display: none;
+  .top-menu__right {
+    column-gap: 160px;
   }
 
-  .upper-menu__divider--left {
-    display: none;
-  }
-
-  .upper-menu__button--phone {
-    display: none;
-  }
-
-  .upper-menu__button--chat {
-    display: none;
-  }
-
-  .upper-menu__button--profile {
-    display: none;
-  }
-
-  .upper-menu__divider--right {
-    display: none;
-  }
-
-  .title-button {
-    font-size: 16px;
+  .button--repair::before {
+    content: "Оставить заявку";
+    position: absolute;
+    left: -135px;
+    top: 50%;
+    margin-top: -12px;
+    font-family: "TT Lakes", "Arial", sans-serif;
     font-weight: 500;
+    font-size: 16px;
     line-height: 24px;
   }
 
-  .upper-menu__title-button--check {
-    display: block;
-    margin-right: 9px;
-  }
-  .upper-menu__button--repair {
-    margin-left: auto;
-    margin-right: 32px;
-  }
-  .upper-menu__title-button--repair {
-    display: block;
-    margin-right: 9px;
+  .button--check::before {
+    content: "Статус заявки";
+    position: absolute;
+    left: -119px;
+    top: 50%;
+    margin-top: -12px;
+    font-family: "TT Lakes", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .header__title {
-    order: -1;
     margin: 0;
+    order: -1;
   }
 
   .title::before {
     left: -37px;
   }
 
-  .menu {
-    overflow-x: hidden;
+  .header__menu {
+    margin-left: 0;
+  }
+
+  .menu__list {
+    overflow-x: auto;
     flex-wrap: wrap;
   }
 
-  .header__menu {
-    margin: 8px 29px 10px 32px;
-  }
-
-  .menu__item--desktop {
-    display: block;
-    order: -1;
-  }
-  .menu__link {
-    padding: 8px 22px;
-  }
-
-  .menu__link--not-active {
-    background-color: transparent;
-    border: 0;
-    border-radius: 0;
-  }
-
-  /* SECTION-ABOUT ___________________________________________________________*/
-
-  .about__content {
-    margin: 0 0 0 34px;
-    padding-top: 9px;
-  }
-
-  .about {
+  /* SECTION - ABOUT */
+  .about__container {
+    padding: 7px 34px 51px;
     column-gap: 36px;
   }
 
   .about__spoiler {
-    margin: 14px 0 0 0;
-  }
-
-  .about__container-img {
-    margin-right: 24px;
+    margin-top: 14px;
   }
 }
