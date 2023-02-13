@@ -10,15 +10,20 @@
   }
 
   .button--phone {
-    background: url("../img/icons/call.svg") no-repeat 50% 50%;
+    background: url("/img/icons/call.svg") no-repeat 50% 50%;
+    margin-left: auto;
   }
 
   .button--chat {
-    background: url("../img/icons/chat.svg") no-repeat 50% 50%;
+    background: url("/img/icons/chat.svg") no-repeat 50% 50%;
   }
 
   .button--profile {
-    background: url("../img/icons/profile.svg") no-repeat 50% 50%;
+    background: url("/img/icons/profile.svg") no-repeat 50% 50%;
+  }
+
+  .divider--right {
+    margin-left: 0;
   }
 
   /* HEADER - MENU */
@@ -85,8 +90,9 @@
     padding: 0;
   }
 
-  .top-menu__right {
+  .top-menu {
     column-gap: 160px;
+    justify-content: flex-end;
   }
 
   .button--repair::before {
