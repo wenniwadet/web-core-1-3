@@ -10,16 +10,16 @@
   }
 
   .button--phone {
-    background: url("/img/icons/call.svg") no-repeat 50% 50%;
+    background: url("../img/icons/call.svg") no-repeat 50% 50%;
     margin-left: auto;
   }
 
   .button--chat {
-    background: url("/img/icons/chat.svg") no-repeat 50% 50%;
+    background: url("../img/icons/chat.svg") no-repeat 50% 50%;
   }
 
   .button--profile {
-    background: url("/img/icons/profile.svg") no-repeat 50% 50%;
+    background: url("../img/icons/profile.svg") no-repeat 50% 50%;
   }
 
   .divider--right {
