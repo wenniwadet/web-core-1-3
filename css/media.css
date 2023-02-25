@@ -9,11 +9,11 @@
     display: block;
   }
 
-  .button--burger::after {
+  .top-menu::before {
     content: "";
     position: absolute;
-    top: 4px;
-    right: -18px;
+    top: 28px;
+    left: 80px;
     width: 2px;
     height: 32px;
     border-radius: 1px;
@@ -26,6 +26,10 @@
 
   .header__button--repair {
     margin-left: 0;
+  }
+
+  .top-menu::after {
+    right: 137px;
   }
 
   .header__button--phone {
@@ -50,10 +54,13 @@
   }
 
   /* SECTION - ABOUT */
-  .about__container {
-    padding: 32px 24px;
+  .about {
     display: flex;
     column-gap: 48px;
+  }
+
+  .main__about {
+    padding: 32px 24px;
   }
 
   .about__content {
@@ -124,7 +131,8 @@
     line-height: 24px;
   }
 
-  .button--repair::before {
+  .top-menu::before,
+  .top-menu::after {
     display: none;
   }
 
@@ -147,9 +155,12 @@
   }
 
   /* SECTION - ABOUT */
-  .about__container {
-    padding: 7px 34px 51px;
+  .about {
     column-gap: 36px;
+  }
+
+  .main__about {
+    padding: 7px 32px 51px 32px;
   }
 
   .about__content {
