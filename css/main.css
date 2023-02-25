@@ -183,7 +183,7 @@ li {
   padding-left: 32px;
   background-color: transparent;
   border: 0;
-  background: url("/img/icons/icon.svg") no-repeat 8px 50%;
+  background: url("../img/icons/icon.svg") no-repeat 8px 50%;
   font-size: 16px;
   font-family: inherit;
   font-weight: 500;
